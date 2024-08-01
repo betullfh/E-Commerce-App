@@ -1,0 +1,122 @@
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+.flex-row
+{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-column
+{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.basket-image
+{
+  width: 40px;
+  height: 60px;
+}
+
+.basket-product
+{
+  border :2px solid gray;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.basket-list
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.delete-product
+{
+    background-color: rgb(192, 13, 0);
+    padding: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: rgb(217, 217, 217);
+    border: none;
+}
+
+.delete-product:hover{
+  background-color: rgb(89, 88, 88);
+  transition: all 0.3s;
+}
+
+.price-delete
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  align-items: center;
+ 
+}
+
+.basket-price
+{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid gray;
+  padding: 1px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px ;
+}
+
+.total
+{
+  border: 5px solid rgb(85, 1, 1);
+  margin: 20px;
+  border-top-width: 0px;
+  display: flex;
+  text-align: center;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(220, 207, 207);
+}
+
+.basket-title
+{
+  margin: 20px;
+  font-size: 20px; 
+  text-align: center;
+  width: 200px;
+  border: 1px solid rgb(245, 30, 15);
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 1px 2px 3px rgb(169, 13, 2);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgb(249, 116, 106);
+  cursor: pointer;
+}
+
+.basket-title:hover
+{
+  background-color: rgb(171, 171, 171);
+    transition: all 0.6s;
+}
+
+.basket-title:active
+{
+  background-color: rgb(139, 120, 120);
+    transition: all 0.6s;
+}

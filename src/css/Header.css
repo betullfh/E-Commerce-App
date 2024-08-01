@@ -1,0 +1,149 @@
+.logo
+{
+    width: 70px;
+}
+
+.logo-text
+{
+    font-size: 22px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-shadow: 0px 0px 1px #000, 
+    1px 1px 2px rgb(121, 10, 16);
+}
+
+.header
+{
+    margin-top: 10px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-input
+{
+    border-radius: 10px;
+    outline:none ;
+    padding: 8px;
+    border: 3px solid rgb(245, 30, 15);
+    background-color: rgba(255, 251, 251, 0.766);
+    font-family:math;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    box-shadow: 1px 1px 1px 1px rgb(186, 183, 183);
+}
+
+.search-input:hover
+{
+    background-color: rgb(241, 204, 202);
+    transition: all 0.5s;
+}
+
+.search-icon
+{
+    color:rgb(245, 30, 15);
+    font-size: 22px;
+    cursor: pointer;
+    border: 3px solid rgb(245, 30, 15);
+    padding: 4px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: rgba(255, 251, 251, 0.766);
+    box-shadow: 1px 1px 1px 1px rgb(186, 183, 183);
+}
+
+.search-icon:hover
+{
+    background-color: rgb(255, 184, 179);
+    transition: all 0.5s;
+}
+.search-icon:active
+{
+    background-color: rgb(79, 9, 4);
+    transition: all 0.6s;
+}
+
+    
+
+.basket
+{
+    color:rgb(2, 1, 1);
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 2px solid gray;
+    padding: 2px;
+    background-color: rgb(255, 251, 251, 0.766);
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px 1px rgb(186, 183, 183);
+}
+.basket:hover
+{
+    background-color: rgb(166, 157, 157);
+    transition: all 0.5s;
+}
+
+.mood-dark
+{
+    color:rgb(241, 239, 239);
+    font-size: 19px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 2px solid gray;
+    padding: 5px;
+    background-color: rgba(128, 128, 128, 0.766);
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px 1px rgb(186, 183, 183);
+    display: flex;
+}
+
+.mood-dark:hover
+{
+    background-color: rgb(176, 176, 176);
+    transition: all 0.6s;
+}
+.mood-light
+{
+    color:rgb(48, 48, 48);
+    font-size: 19px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 2px solid gray;
+    padding: 5px;
+    background-color: rgb(255, 251, 251, 0.766);
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px 1px rgb(186, 183, 183);
+    display: flex;
+   
+}
+.mood-light:hover
+{
+    background-color: rgb(176, 176, 176);
+    transition: all 0.6s;
+}
+.customBadge {
+    background-color: red;
+}
+
+.account
+{
+    color:rgb(245, 30, 15);
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: 2px solid gray;
+    padding: 2px;
+    background-color: rgb(255, 251, 251, 0.766);
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px 1px rgb(186, 183, 183);
+}
+
+.account:hover
+{
+    background-color: rgb(76, 76, 76);
+    transition: all 0.6s;
+}
